@@ -6,10 +6,14 @@
     <title>Assignment 03</title>
 
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+        </style>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
 </head>
-<body class=" ">
+<body class=" sora-font">
     <header class="bg-gradient-to-b from-cyan-200 to-white ">   
          <!-- navbar for mobile device -->
 
@@ -60,7 +64,181 @@
 
    
     <main>
+        <!-- service section start -->
+         <section class="lg:m-32 m-10">
+            <h2 class="font-bold text-green-500 text-2xl">Services</h2>
+            <div class="flex gap-10 mt-10 lg:flex-row flex-col">
+                <!-- service-card-1 -->
+            <div class="bg-yellow-50 rounded-lg p-4 gap-5 flex flex-col items-center text-center space-y-1">
+                <img class="bg-white rounded-full p-4 " src="images/service.png" alt="">
+                <h2 class="font-bold text-xl">24/7 Services </h2>
+                <p>Our 24-hour delivery service ensures your packages arrive quickly and reliably, no matter the time of day. With round-the-clock operations, we guarantee fast and efficient delivery to meet your urgent needs.</p>
+            </div>
+           
+            <!-- service-card-2 -->
+            <div class="bg-yellow-50 rounded-lg p-4 gap-5 flex flex-col items-center text-center space-y-1">
+                <img class="bg-white rounded-full p-4 "  src="images/delivery.png" alt="">
+                <h2 class="font-bold text-xl">Fast Delivery </h2>
+                <p>Our fast delivery service ensures your orders arrive swiftly and on time. We prioritize speed and efficiency to get your package to you as quickly as possible.</p>
+            </div>
+            <!-- service-card-3 -->
+            <div class="bg-yellow-50 rounded-lg p-4 gap-5 flex flex-col items-center text-center space-y-1">
+                <img class="bg-white rounded-full p-4 "  src="images/healthy.png" alt="">
+                <h2 class="font-bold text-xl">Healthy Products </h2>
+                <p>Our healthy products are made with natural, high-quality ingredients to support your well-being. We prioritize nutrition and wellness, offering wholesome choices for a healthier lifestyle.</p>
+            </div>
+            </div>
+    
+         </section>
 
+         <!-- Popular Section start -->
+          <section class="lg:p-32 p-10 bg-yellow-100">
+            <h2 class="font-bold text-green-500 text-2xl">Popular Products</h2>
+            <div class="lg:flex gap-10  mt-10">
+                <div class=" bg-gradient-to-b from-green-600 to-white space-y-8 rounded-lg p-10 relative sm:mb-10 lg:mb-0">
+                    <h1 class="text-4xl text-white">30% off</h1>
+                    <p class="text-xl text-gray-600 ">Discover a world of treats, toys, and essentials handpicked for </p>
+                    <button class="btn bg-white ">Buy Now</button>
+                    <img class="absolute right-0 bottom-0 lg:h-90 h-40" src="images/vegetable-offer.png" alt="">
+                </div>
+
+
+                <div class="grid grid-cols-3 gap-5">
+                    <!-- popular-card-1 -->
+                    <div class="flex  gap-2 bg-white p-2 rounded-lg items-center ">
+                        <div>
+                            <img class="bg-yellow-100 rounded-lg" src="images/onion.png" alt="">
+                        </div>
+                        <div class="space-y-1">
+                            <div class="flex gap-2">
+                                <img src="images/Vector.png" alt="">
+                                <p class="font-bold ">4.5</p>
+                            </div>
+                            <h1 class="font-bold text-base">Onion 1KG</h1>
+                            <p class="font-bold text-sm">$39.99</p>
+                        </div>
+                    </div>
+           
+                    <!-- popular-card-2 -->
+                    <div class="flex  gap-2 bg-white p-2 rounded-lg items-center ">
+                        <div>
+                            <img class="bg-yellow-100 rounded-lg" src="images/tomato.png" alt="">
+                        </div>
+                        <div class="space-y-1">
+                            <div class="flex gap-2">
+                                <img src="images/Vector.png" alt="">
+                                <p class="font-bold ">4.5</p>
+                            </div>
+                            <h1 class="font-bold text-base">Tomato 500 g</h1>
+                            <p class="font-bold text-sm">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- popular-card-3 -->
+                    <div class="flex  gap-2 bg-white p-2 rounded-lg items-center ">
+                        <div>
+                            <img class="bg-yellow-100 rounded-lg" src="images/potato.png" alt="">
+                        </div>
+                        <div class="space-y-1">
+                            <div class="flex gap-2">
+                                <img src="images/Vector.png" alt="">
+                                <p class="font-bold ">4.5</p>
+                            </div>
+                            <h1 class="font-bold text-base">potato 1 KG</h1>
+                            <p class="font-bold text-sm">$39.99</p>
+                        </div>
+                    </div>
+                     <!-- popular-card-4 -->
+                     <div class="flex  gap-2 bg-white p-2 rounded-lg items-center ">
+                        <div>
+                            <img class="bg-yellow-100 rounded-lg" src="images/tomato.png" alt="">
+                        </div>
+                        <div class="space-y-1">
+                            <div class="flex gap-2">
+                                <img src="images/Vector.png" alt="">
+                                <p class="font-bold ">4.5</p>
+                            </div>
+                            <h1 class="font-bold text-base">Tomato 500 g</h1>
+                            <p class="font-bold text-sm">$39.99</p>
+                        </div>
+                    </div>
+                     <!-- popular-card-5 -->
+                     <div class="flex  gap-2 bg-white p-2 rounded-lg items-center ">
+                        <div>
+                            <img class="bg-yellow-100 rounded-lg" src="images/onion.png" alt="">
+                        </div>
+                        <div class="space-y-1">
+                            <div class="flex gap-2">
+                                <img src="images/Vector.png" alt="">
+                                <p class="font-bold ">4.5</p>
+                            </div>
+                            <h1 class="font-bold text-base">Onion 1KG</h1>
+                            <p class="font-bold text-sm">$39.99</p>
+                        </div>
+                    </div>
+                     <!-- popular-card-6 -->
+                     <div class="flex  gap-2 bg-white p-2 rounded-lg items-center ">
+                        <div>
+                            <img class="bg-yellow-100 rounded-lg" src="images/tomato.png" alt="">
+                        </div>
+                        <div class="space-y-1">
+                            <div class="flex gap-2">
+                                <img src="images/Vector.png" alt="">
+                                <p class="font-bold ">4.5</p>
+                            </div>
+                            <h1 class="font-bold text-base">Tomato 500 g</h1>
+                            <p class="font-bold text-sm">$39.99</p>
+                        </div>
+                    </div>
+                     <!-- popular-card-7 -->
+                     <div class="flex  gap-2 bg-white p-2 rounded-lg items-center ">
+                        <div>
+                            <img class="bg-yellow-100 rounded-lg" src="images/onion.png" alt="">
+                        </div>
+                        <div class="space-y-1">
+                            <div class="flex gap-2">
+                                <img src="images/Vector.png" alt="">
+                                <p class="font-bold ">4.5</p>
+                            </div>
+                            <h1 class="font-bold text-base">Onion 1KG</h1>
+                            <p class="font-bold text-sm">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- popular-card-8 -->
+                    <div class="flex  gap-2 bg-white p-2 rounded-lg items-center ">
+                        <div>
+                            <img class="bg-yellow-100 rounded-lg" src="images/potato.png" alt="">
+                        </div>
+                        <div class="space-y-1">
+                            <div class="flex gap-2">
+                                <img src="images/Vector.png" alt="">
+                                <p class="font-bold ">4.5</p>
+                            </div>
+                            <h1 class="font-bold text-base">potato 1 KG</h1>
+                            <p class="font-bold text-sm">$39.99</p>
+                        </div>
+                    </div>
+                    <!-- popular-card-9 -->
+                    <div class="flex  gap-2 bg-white p-2 rounded-lg items-center ">
+                        <div>
+                            <img class="bg-yellow-100 rounded-lg" src="images/potato.png" alt="">
+                        </div>
+                        <div class="space-y-1">
+                            <div class="flex gap-2">
+                                <img src="images/Vector.png" alt="">
+                                <p class="font-bold ">4.5</p>
+                            </div>
+                            <h1 class="font-bold text-base">potato 1 KG</h1>
+                            <p class="font-bold text-sm">$39.99</p>
+                        </div>
+                    </div>
+           
+                   
+           
+                   
+           
+                </div>
+            </div>
+          </section>
     </main>
     <footer>
 

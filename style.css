@@ -1,4 +1,18 @@
+
+.sora-font{
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
 /* seconday style */
 .shared-bg-color{
     background-color: #EFEBE3;
+}
+
+.bg-img{
+    background-image: url(images/vegetable-offer.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
 }
