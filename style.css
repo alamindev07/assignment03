@@ -16,3 +16,42 @@
     background-position: right bottom;
     background-size: contain;
 }
+
+
+/* animation for banner section */
+
+@keyframes fadeinForBanner {
+    0% { opacity: 0; transform: translateY(-30px); }
+    100% { opacity: 1; transform: translateY(); }
+}
+.animate-fadeIn {
+    animation: fadeinForBanner 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(10px); }
+    100% { transform: translateY(0px); }
+}
+.animate-floating {
+    animation: floating 3s ease-in-out infinite;
+}
+
+
+
+/* Animations for extra section  */
+@keyframes fadeInForLocation {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeinForLocation {
+    animation: fadeInForLocation 5s ease-in-out infinite;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+}
+.animate-bounce {
+    animation: bounce 1.5s infinite;
+}
